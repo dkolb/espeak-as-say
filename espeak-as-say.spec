@@ -26,7 +26,7 @@ install say %{buildroot}/usr/bin/say
 %files
 %license LICENSE
 /usr/bin/say
-#%doc add-docs-here
+%doc README.md AUTHORS
 
 
 
