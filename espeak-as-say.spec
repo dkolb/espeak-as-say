@@ -1,15 +1,11 @@
-# x-release-please-start-version
-%define src_version 1.0.0
-# x-release-please-end
-
 Name:           espeak-as-say
-Version:        %{src_version}
+Version:        1.0.0
 Release:        %autorelease
 Summary:        Installs a script in /usr/bin/say that calls espeak        
 
 License:        MIT
 URL:            https://github.com/dkolb/%{name}
-Source0:        https://github.com/dkolb/%{name}/%{name}-%{src_version}.tar.gz
+Source0:        %\{name}-%\{src_version}.tar.gz
 
 #BuildRequires:
 Requires:       espeak
@@ -33,5 +29,8 @@ install say %{buildroot}/usr/bin/say
 
 
 %changelog
+* Tue Aug 06 2024 David Kolb <git@dkub.dev> 1.0.0-1
+- new package built with tito
+- inital builds
 * Tue Aug 06 2024 David Kolb <git@dkub.dev>
 - 
