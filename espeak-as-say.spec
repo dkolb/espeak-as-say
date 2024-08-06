@@ -1,4 +1,6 @@
+# x-release-please-start-version
 %define src_version 1.0.0
+# x-release-please-end
 
 Name:           espeak-as-say
 Version:        %{src_version}
@@ -6,8 +8,8 @@ Release:        %autorelease
 Summary:        Installs a script in /usr/bin/say that calls espeak        
 
 License:        MIT
-URL:            https://github.com/dkolb/espeak-as-say
-Source0:        https://github.com/dkolb/espeak-as-say/archive/refs/tags/v%{src_version}.tar.gz
+URL:            https://github.com/dkolb/%{name}
+Source0:        https://github.com/dkolb/%{name}/%{name}-%{src_version}.tar.gz
 
 #BuildRequires:
 Requires:       espeak
