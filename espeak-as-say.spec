@@ -1,11 +1,10 @@
 Name:           espeak-as-say
 Version:        1.0.1
 Release:        %autorelease
-Summary:        Installs a script in /usr/bin/say that calls espeak        
-
 License:        MIT
-URL:            https://github.com/dkolb/%{name}
-Source0:        %\{name}-%\{src_version}.tar.gz
+Summary:        Installs a script in /usr/bin/say that calls espeak        
+Url:            https://github.com/dkolb/%{name}
+Source0:        %{name}-%{src_version}.tar.gz
 
 #BuildRequires:
 Requires:       espeak
