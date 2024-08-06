@@ -1,6 +1,6 @@
 Name:           espeak-as-say
-Version:        1.0.1
-Release:        %autorelease
+Version:        1.0.2
+Release:        2%{?dist}
 License:        MIT
 Summary:        Installs a script in /usr/bin/say that calls espeak        
 Url:            https://github.com/dkolb/%{name}
@@ -28,6 +28,21 @@ install say %{buildroot}/usr/bin/say
 
 
 %changelog
+* Tue Aug 06 2024 David Kolb <git@dkub.dev>
+- 
+
+* Tue Aug 06 2024 David Kolb <git@dkub.dev>
+- testing keep-version 
+
+* Tue Aug 06 2024 David Kolb <git@dkub.dev> 1.0.2-1
+- try again (git@dkub.dev)
+
+* Tue Aug 06 2024 David Kolb <git@dkub.dev>
+- try again (git@dkub.dev)
+
+* Tue Aug 06 2024 David Kolb <git@dkub.dev>
+- fix bad source (maybe?) (git@dkub.dev)
+
 * Tue Aug 06 2024 David Kolb <git@dkub.dev> 1.0.1-1
 - cleanup: remove some bs. (git@dkub.dev)
 
