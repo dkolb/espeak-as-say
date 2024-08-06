@@ -4,7 +4,7 @@ Release:        1%{?dist}
 License:        MIT
 Summary:        Installs a script in /usr/bin/say that calls espeak        
 Url:            https://github.com/dkolb/%{name}
-Source0:        %{name}-%{src_version}.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 
 #BuildRequires:
 Requires:       espeak
