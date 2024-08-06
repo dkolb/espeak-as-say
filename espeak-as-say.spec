@@ -1,5 +1,5 @@
 Name:           espeak-as-say
-Version:        1.0.0
+Version:        1.0.1
 Release:        %autorelease
 Summary:        Installs a script in /usr/bin/say that calls espeak        
 
@@ -29,6 +29,9 @@ install say %{buildroot}/usr/bin/say
 
 
 %changelog
+* Tue Aug 06 2024 David Kolb <git@dkub.dev> 1.0.1-1
+- cleanup: remove some bs. (git@dkub.dev)
+
 * Tue Aug 06 2024 David Kolb <git@dkub.dev> 1.0.0-1
 - new package built with tito
 - inital builds
