@@ -1,5 +1,7 @@
 # ESpeak as Say
 
+[![Copr build status](https://copr.fedorainfracloud.org/coprs/dkubs/espeak-as-say/package/espeak-as-say/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/dkubs/espeak-as-say/package/espeak-as-say/)
+
 This is a hyper niche RPM package that essentially installs a bash script to `/usr/bin/say`
 allowing programs that expect the old `say` to instead call espeak.
 
